@@ -27,8 +27,24 @@ This repository contains the source code for the paper:
     ```    
 
 ## Files
-* `DRC_train.py`: Training code for DRC. By modifying the net file settings, training can be performed in various environments.
-* `test.py`: Test code for the trained agent. By default, the metrics used are accumulative_waiting_time_per_vehicles, total_arrived_vehicles, and co2_emissions_per_vehicles.
+* `experiments/DRC_train.py`: Training code for DRC. By modifying the net file settings, training can be performed in various environments.
+* `experiments/test.py`: Test code for evaluating the trained agent. Metrics include:
+    * Accumulative waiting time per vehicle
+    * Total arrived vehicles (Throughput)
+    * CO2 emissions per vehicle
+
+## Citation
+If you use this code for your research, please cite our paper:
+
+```bibtex
+@inproceedings{ICCAE2026_DRC,
+    author    = {Riku Sayama, Yasuyuki Tahara and Yuichi Sei},
+    title     = {Deep Reinforcement Learning for Traffic Signal Control Utilizing Autonomous Vehicle Route Information},
+    booktitle = {2026 18th International Conference on Computer and Automation Engineering (ICCAE)},
+    year      = {2026},
+    note      = {To appear}
+}
+```
 
 ## References
 This project relies on the **SUMO-RL** library. We would like to thank the authors for their contribution to the community.
