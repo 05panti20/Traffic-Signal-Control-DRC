@@ -18,3 +18,13 @@ This repository contains the source code for the paper:
 ## Files
 * `[file1].py`: [Description]
 * `[file2].py`: [Description]
+
+## Cites
+@misc{sumorl,
+    author = {Lucas N. Alegre},
+    title = {{SUMO-RL}},
+    year = {2019},
+    publisher = {GitHub},
+    journal = {GitHub repository},
+    howpublished = {\url{https://github.com/LucasAlegre/sumo-rl}},
+}
