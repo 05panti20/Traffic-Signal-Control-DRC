@@ -6,14 +6,14 @@ This repository contains the source code for the paper:
 ## Requirements
 * Python 3.x
 * SUMO (Simulation of Urban MObility)
-・gymnasium>=0.28
-・pettingzoo>=1.24.3
-・numpy
-・pandas
-・pillow
-・sumolib>=1.14.0
-・traci>=1.14.0
-・sumo-rl
+* gymnasium>=0.28
+* pettingzoo>=1.24.3
+* numpy
+* pandas
+* pillow
+* sumolib>=1.14.0
+* traci>=1.14.0
+* sumo-rl
 
 ## Usage
 1.  Clone this repository.
