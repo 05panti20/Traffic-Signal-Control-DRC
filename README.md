@@ -23,8 +23,8 @@ This repository contains the source code for the paper:
     ```
 
 ## Files
-* `[file1].py`: [Description]
-* `[file2].py`: [Description]
+* `DRC_train.py`: Training code for DRC. By modifying the net file settings, training can be performed in various environments.
+* `test.py`: Test code for the trained agent. By default, the metrics used are accumulative_waiting_time_per_vehicles, total_arrived_vehicles, and co2_emissions_per_vehicles.
 
 ## References
 This project relies on the **SUMO-RL** library. We would like to thank the authors for their contribution to the community.
