@@ -1,7 +1,7 @@
 # Traffic-Signal-Control-DRC
 
 This repository contains the source code for the paper:
-**"[Paper Title]"**, accepted at **ICCAE 2026**.
+**"Deep Reinforcement Learning for Traffic Signal Control Utilizing Autonomous Vehicle Route Information"**, accepted at **ICCAE 2026**.
 
 ## Requirements
 * Python 3.x
@@ -19,7 +19,7 @@ This repository contains the source code for the paper:
 1.  Clone this repository.
 2.  Run the training script:
     ```bash
-    python [training_script_name].py
+    python ./experiments/DRC_train.py
     ```
 
 ## Files
