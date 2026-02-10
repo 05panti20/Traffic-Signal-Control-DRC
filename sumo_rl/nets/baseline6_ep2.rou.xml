@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    
+
+    <vType id="t0" speedDev="0.1" speedFactor="1.2" />
+
+    <routeDistribution id="routedist1">
+        <route id="route_ws" edges="w w_t t_s" />
+        <route id="route_we" edges="w w_t t_e" />
+        <route id="route_wn" edges="w w_t t_n" />
+    </routeDistribution>
+
+    <routeDistribution id="routedist2">
+        <route id="route_se" edges="s s_t t_e" />
+        <route id="route_sn" edges="s s_t t_n" />
+        <route id="route_sw" edges="s s_t t_w" />
+    </routeDistribution>
+
+    <routeDistribution id="routedist3">
+        <route id="route_en" edges="e e_t t_n" />
+        <route id="route_es" edges="e e_t t_s" />
+        <route id="route_ew" edges="e e_t t_w" />
+    </routeDistribution>
+
+    <routeDistribution id="routedist4">
+        <route id="route_ns" edges="n n_t t_s" />
+        <route id="route_ne" edges="n n_t t_e" />
+        <route id="route_nw" edges="n n_t t_w" />
+    </routeDistribution>
+
+
+    <flow id="0" route="routedist1" begin="0" end="5000" type="t0" probability="0.1520" departSpeed="random" departPos="base" departLane="random" />
+    <flow id="1" route="routedist2" begin="0" end="5000" type="t0" probability="0.1206" departSpeed="random" departPos="base" departLane="random" />
+    <flow id="2" route="routedist3" begin="0" end="5000" type="t0" probability="0.2437" departSpeed="random" departPos="base" departLane="random" />
+    <flow id="3" route="routedist4" begin="0" end="5000" type="t0" probability="0.1219" departSpeed="random" departPos="base" departLane="random" />
+
+    
+
+    
+
+</routes>
