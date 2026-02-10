@@ -21,6 +21,10 @@ This repository contains the source code for the paper:
     ```bash
     python ./experiments/DRC_train.py
     ```
+3.  Run the test script:
+    ```bash
+    python ./experiments/test.py --model-path [model name]
+    ```    
 
 ## Files
 * `DRC_train.py`: Training code for DRC. By modifying the net file settings, training can be performed in various environments.
