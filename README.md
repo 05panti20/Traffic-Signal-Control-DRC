@@ -37,7 +37,7 @@ This repository contains the source code for the paper:
 If you use this code for your research, please cite our paper:
 
 ```bibtex
-@inproceedings{Deep Reinforcement Learning for Traffic Signal Control Utilizing Autonomous Vehicle Route Information,
+@inproceedings{Traffic-Signal-Control-DRC,
     author    = {Riku Sayama, Yasuyuki Tahara and Yuichi Sei},
     title     = {Deep Reinforcement Learning for Traffic Signal Control Utilizing Autonomous Vehicle Route Information},
     booktitle = {2026 18th International Conference on Computer and Automation Engineering (ICCAE)},
